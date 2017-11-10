@@ -16,7 +16,7 @@ public class CS230ProjectPrototype {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-                new seiIntro().setVisible(true);
+                new mainManu().setVisible(true);
 
     }
     
