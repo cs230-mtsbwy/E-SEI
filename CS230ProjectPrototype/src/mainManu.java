@@ -1,3 +1,6 @@
+
+import javax.swing.DefaultListModel;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -13,6 +16,9 @@ public class mainManu extends javax.swing.JFrame {
     /**
      * Creates new form mainManu
      */
+    String[] quest = { "On a scale of 1 to 10 how lit will you be this weekend(Halloween)?", "What did you have for breakfest?", "On a scale of 1 to 5 how strong is your force?", "what color is your lightsaber?", "What is your midichlorian count?", "what do you like on pizza?", "what do you plan to get on this lab 0 - 50pts?", "Do you like cats?", "Do you have the high ground?", "Whats your favoirte flavor of Mt. Dew?", "Have you ever preformed a 360 no scoop?", "Number of headshots in COD?", "Did you get the Master Sword?", "" };
+    
+    
     public mainManu() {
         initComponents();
     }
@@ -96,11 +102,6 @@ public class mainManu extends javax.swing.JFrame {
 
         jLabel9.setText("New Question:");
 
-        jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public String getElementAt(int i) { return strings[i]; }
-        });
         jScrollPane1.setViewportView(jList1);
 
         jButton6.setText("Back");
@@ -133,14 +134,14 @@ public class mainManu extends javax.swing.JFrame {
         questionPanelLayout.setVerticalGroup(
             questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(questionPanelLayout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 229, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addGroup(questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(questionPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
                     .addComponent(createQ, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(9, 9, 9)
                 .addComponent(jButton8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 174, Short.MAX_VALUE)
+                .addGap(72, 72, 72)
                 .addComponent(jButton6)
                 .addGap(31, 31, 31))
         );
@@ -483,9 +484,17 @@ public class mainManu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        DefaultListModel questions = new DefaultListModel();
+        
+        for (int i =0; i < quest.length; i++)
+        {
+            questions.addElement(quest[i]);
+        }
         this.setContentPane(questionPanel);
+        jList1.setModel(questions);
         this.invalidate();
         this.validate();
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -526,7 +535,16 @@ public class mainManu extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
-        createQ.setText(" ");
+        quest = addToArray(quest, createQ.getText());
+        DefaultListModel questions = new DefaultListModel();
+        
+        for (int i =0; i < quest.length; i++)
+        {
+            questions.addElement(quest[i]);
+        }
+        this.setContentPane(questionPanel);
+        jList1.setModel(questions);
+        createQ.setText("");
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void createQActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createQActionPerformed
@@ -573,11 +591,26 @@ public class mainManu extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
+        
+        
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new mainManu().setVisible(true);
             }
         });
+    }
+    
+    private String[] addToArray(String[] arrin, String stringin)
+    {
+        String[] arrout = new String[arrin.length + 1];
+        
+        for (int i = 0; i < arrin.length; i++){
+            arrout[i] = arrin[i];
+        }
+        
+        arrout[arrin.length] = stringin;
+        return arrout;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
