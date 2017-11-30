@@ -68,6 +68,7 @@ public class instructorQuestions extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jRadioButton8 = new javax.swing.JRadioButton();
         jRadioButton9 = new javax.swing.JRadioButton();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -263,6 +264,8 @@ public class instructorQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setText("Instructor's Questions:");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -318,8 +321,7 @@ public class instructorQuestions extends javax.swing.JFrame {
                                                             .addGroup(jPanel1Layout.createSequentialGroup()
                                                                 .addGap(10, 10, 10)
                                                                 .addComponent(jRadioButton3))
-                                                            .addComponent(jLabel6))
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                                            .addComponent(jLabel6)))
                                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                                         .addGap(10, 10, 10)
                                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -363,6 +365,10 @@ public class instructorQuestions extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel7)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel9)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -371,7 +377,9 @@ public class instructorQuestions extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(65, 65, 65)
+                                .addContainerGap()
+                                .addComponent(jLabel9)
+                                .addGap(40, 40, 40)
                                 .addComponent(question1))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(27, 27, 27)
@@ -607,6 +615,7 @@ public class instructorQuestions extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton10;
