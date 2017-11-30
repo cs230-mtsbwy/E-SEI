@@ -196,11 +196,17 @@ public class mainManu extends javax.swing.JFrame {
         freeResponseQuestions = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
         submit = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        Exit_MessagePage = new javax.swing.JPanel();
+        jLabel45 = new javax.swing.JLabel();
+        Return = new javax.swing.JButton();
+        Close = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -1576,20 +1582,24 @@ public class mainManu extends javax.swing.JFrame {
 
         jLabel42.setText("Question?????");
 
-        jTextField1.setText("jTextField1");
-
         jLabel43.setText("(Opational) Question 2:");
 
         jLabel44.setText("Question?????");
 
-        jTextField2.setText("jTextField2");
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        submit.setText("Submit");
+        submit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                submitActionPerformed(evt);
             }
         });
 
-        submit.setText("Submit");
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane3.setViewportView(jTextArea1);
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jScrollPane4.setViewportView(jTextArea2);
 
         javax.swing.GroupLayout freeResponseQuestionsLayout = new javax.swing.GroupLayout(freeResponseQuestions);
         freeResponseQuestions.setLayout(freeResponseQuestionsLayout);
@@ -1598,8 +1608,6 @@ public class mainManu extends javax.swing.JFrame {
             .addGroup(freeResponseQuestionsLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jTextField1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, freeResponseQuestionsLayout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(submit))
@@ -1613,8 +1621,14 @@ public class mainManu extends javax.swing.JFrame {
                                 .addComponent(jLabel43)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(jLabel44)))
-                        .addGap(0, 189, Short.MAX_VALUE)))
+                        .addGap(0, 189, Short.MAX_VALUE))
+                    .addComponent(jScrollPane3))
                 .addContainerGap())
+            .addGroup(freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(freeResponseQuestionsLayout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jScrollPane4)
+                    .addContainerGap()))
         );
         freeResponseQuestionsLayout.setVerticalGroup(
             freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1623,17 +1637,62 @@ public class mainManu extends javax.swing.JFrame {
                 .addGroup(freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel41)
                     .addComponent(jLabel42))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(106, 106, 106)
                 .addGroup(freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel43)
                     .addComponent(jLabel44))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(submit)
                 .addContainerGap(15, Short.MAX_VALUE))
+            .addGroup(freeResponseQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(freeResponseQuestionsLayout.createSequentialGroup()
+                    .addGap(54, 54, 54)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(166, Short.MAX_VALUE)))
+        );
+
+        jLabel45.setText("Thank you for completing the SEI, have a nice day");
+
+        Return.setText("Return to Main Menu");
+        Return.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ReturnActionPerformed(evt);
+            }
+        });
+
+        Close.setText("Close SEI");
+        Close.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CloseActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout Exit_MessagePageLayout = new javax.swing.GroupLayout(Exit_MessagePage);
+        Exit_MessagePage.setLayout(Exit_MessagePageLayout);
+        Exit_MessagePageLayout.setHorizontalGroup(
+            Exit_MessagePageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Exit_MessagePageLayout.createSequentialGroup()
+                .addGap(78, 78, 78)
+                .addGroup(Exit_MessagePageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(Exit_MessagePageLayout.createSequentialGroup()
+                        .addComponent(Return)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Close))
+                    .addComponent(jLabel45))
+                .addContainerGap(105, Short.MAX_VALUE))
+        );
+        Exit_MessagePageLayout.setVerticalGroup(
+            Exit_MessagePageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(Exit_MessagePageLayout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40)
+                .addGroup(Exit_MessagePageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Return)
+                    .addComponent(Close))
+                .addContainerGap(140, Short.MAX_VALUE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -2074,9 +2133,21 @@ DefaultListModel questions = new DefaultListModel();
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton75ActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    private void ReturnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReturnActionPerformed
+        this.setContentPane(jPanel1);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_ReturnActionPerformed
+
+    private void submitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitActionPerformed
+        this.setContentPane(Exit_MessagePage);
+        this.invalidate();
+        this.validate(); // TODO add your handling code here:
+    }//GEN-LAST:event_submitActionPerformed
+
+    private void CloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CloseActionPerformed
+        this.setVisible(false);// TODO add your handling code here:
+    }//GEN-LAST:event_CloseActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2154,6 +2225,9 @@ DefaultListModel questions = new DefaultListModel();
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Close;
+    private javax.swing.JPanel Exit_MessagePage;
+    private javax.swing.JButton Return;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.ButtonGroup buttonGroup3;
@@ -2223,6 +2297,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -2309,8 +2384,10 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JComboBox<String> month;
     private javax.swing.JComboBox<String> month1;
     private javax.swing.JLabel question1;
