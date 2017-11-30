@@ -1,6 +1,8 @@
 
 import javax.swing.DefaultListModel;
 import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JOptionPane;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -19,8 +21,10 @@ public class mainManu extends javax.swing.JFrame {
      */
     private String[] quest = { "What did you have for breakfest?", "On a scale of 1 to 5 how strong is your force?", "what color is your lightsaber?", "What is your midichlorian count?", "what do you like on pizza?", "what do you plan to get on this lab 0 - 50pts?", "Do you like cats?", "Do you have the high ground?", "Whats your favoirte flavor of Mt. Dew?", "Have you ever preformed a 360 no scoop?", "Number of headshots in COD?", "Did you get the Master Sword?", "" };
     ArrayList<courseInfo> courses;
-    
+    questionList teacherQuestions;
     public mainManu() {
+        
+        teacherQuestions = new questionList();
         this.courses = new ArrayList<courseInfo>();
         initializeCourseList();
         initComponents();
@@ -100,6 +104,13 @@ public class mainManu extends javax.swing.JFrame {
         jComboBox4 = new javax.swing.JComboBox<>();
         displayCourses = new javax.swing.JPanel();
         jComboBox5 = new javax.swing.JComboBox<>();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jList2 = new javax.swing.JList<>();
+        jButton9 = new javax.swing.JButton();
+        studentPage = new javax.swing.JPanel();
+        jButton12 = new javax.swing.JButton();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jLabel11 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -564,21 +575,97 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        DefaultListModel questions = new DefaultListModel();
+
+        for (int i =0; i < quest.length; i++)
+        {
+            questions.addElement(quest[i]);
+        }
+        jList2.setModel(questions);
+        jScrollPane2.setViewportView(jList2);
+
+        jButton9.setText("Submit");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout displayCoursesLayout = new javax.swing.GroupLayout(displayCourses);
         displayCourses.setLayout(displayCoursesLayout);
         displayCoursesLayout.setHorizontalGroup(
             displayCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(displayCoursesLayout.createSequentialGroup()
-                .addGap(239, 239, 239)
-                .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(294, Short.MAX_VALUE))
+                .addGroup(displayCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(displayCoursesLayout.createSequentialGroup()
+                        .addGap(66, 66, 66)
+                        .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(48, 48, 48)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 358, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(displayCoursesLayout.createSequentialGroup()
+                        .addGap(217, 217, 217)
+                        .addComponent(jButton9)))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
         displayCoursesLayout.setVerticalGroup(
             displayCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(displayCoursesLayout.createSequentialGroup()
-                .addGap(137, 137, 137)
-                .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(268, Short.MAX_VALUE))
+                .addGroup(displayCoursesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(displayCoursesLayout.createSequentialGroup()
+                        .addGap(140, 140, 140)
+                        .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(displayCoursesLayout.createSequentialGroup()
+                        .addGap(80, 80, 80)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 102, Short.MAX_VALUE)
+                .addComponent(jButton9)
+                .addGap(90, 90, 90))
+        );
+
+        studentPage.setPreferredSize(new java.awt.Dimension(625, 425));
+
+        jButton12.setText("Take SEI");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+
+        String[] temp2 = new String[courses.size()];
+        for( int i = 0; i < courses.size(); i++)
+        {
+            temp2[i] = courses.get(i).name;
+        }
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(temp2));
+
+        jLabel11.setText("Course");
+
+        javax.swing.GroupLayout studentPageLayout = new javax.swing.GroupLayout(studentPage);
+        studentPage.setLayout(studentPageLayout);
+        studentPageLayout.setHorizontalGroup(
+            studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
+                .addContainerGap(204, Short.MAX_VALUE)
+                .addGroup(studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
+                        .addComponent(jLabel11)
+                        .addGap(106, 106, 106))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
+                        .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(82, 82, 82)))
+                .addComponent(jButton12)
+                .addGap(178, 178, 178))
+        );
+        studentPageLayout.setVerticalGroup(
+            studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(studentPageLayout.createSequentialGroup()
+                .addGap(173, 173, 173)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton12)
+                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(209, Short.MAX_VALUE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -729,7 +816,7 @@ public class mainManu extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        this.setContentPane(seiIntro);
+        this.setContentPane(studentPage);
         this.invalidate();
         this.validate();
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -778,6 +865,38 @@ DefaultListModel questions = new DefaultListModel();
         this.invalidate();
         this.validate();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        
+        List ques;
+        ques = jList2.getSelectedValuesList();
+        String newList[] = new String[5];
+        
+        if (ques.size() ==  5) {
+
+            for (int i = 0; i < ques.size(); i++) {
+               
+                    newList[i] = ques.get(i).toString();
+                
+            }
+            
+            for (int i = 0; i < courses.size(); i++)
+            {
+                if ((String)jComboBox5.getSelectedItem() == courses.get(i).name)
+                {
+                    courses.get(i).profQuestions = newList;
+                }
+            }
+
+        } 
+        else {
+            JOptionPane.showMessageDialog(jPanel1, "You Must Select 5 Options");
+        }
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -860,6 +979,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JComboBox<String> day1;
     private javax.swing.JPanel displayCourses;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -867,13 +987,16 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
@@ -891,6 +1014,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JList<String> jList1;
+    private javax.swing.JList<String> jList2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JRadioButton jRadioButton1;
@@ -919,12 +1043,14 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JComboBox<String> month;
     private javax.swing.JComboBox<String> month1;
     private javax.swing.JLabel question1;
     private javax.swing.JPanel questionPanel;
     private javax.swing.JPanel seiIntro;
     private javax.swing.JPanel setOpenCloseTime;
+    private javax.swing.JPanel studentPage;
     private javax.swing.JComboBox<String> year;
     private javax.swing.JComboBox<String> year1;
     // End of variables declaration//GEN-END:variables
@@ -934,5 +1060,11 @@ DefaultListModel questions = new DefaultListModel();
 class courseInfo
 {
     String name;
+    String[] profQuestions;
     
+}
+
+class questionList
+{
+    String[] questions = new String[5];
 }
