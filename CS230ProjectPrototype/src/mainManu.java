@@ -194,6 +194,7 @@ public class mainManu extends javax.swing.JFrame {
         jButton13 = new javax.swing.JButton();
         jLabel46 = new javax.swing.JLabel();
         jToggleButton2 = new javax.swing.JToggleButton();
+        jButton23 = new javax.swing.JButton();
         setOpenCloseTime = new javax.swing.JPanel();
         month = new javax.swing.JComboBox<>();
         day = new javax.swing.JComboBox<>();
@@ -231,6 +232,11 @@ public class mainManu extends javax.swing.JFrame {
         jButton20 = new javax.swing.JButton();
         jComboBox9 = new javax.swing.JComboBox<>();
         jLabel12 = new javax.swing.JLabel();
+        suggestQuestion = new javax.swing.JPanel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jButton22 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -1619,6 +1625,13 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jButton23.setText("Suggest Question");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout facultyPageLayout = new javax.swing.GroupLayout(facultyPage);
         facultyPage.setLayout(facultyPageLayout);
         facultyPageLayout.setHorizontalGroup(
@@ -1634,9 +1647,11 @@ public class mainManu extends javax.swing.JFrame {
                             .addGroup(facultyPageLayout.createSequentialGroup()
                                 .addComponent(jToggleButton1)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton13))
+                                .addComponent(jButton13)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jToggleButton2))
-                        .addGap(0, 31, Short.MAX_VALUE))))
+                        .addGap(0, 93, Short.MAX_VALUE))))
         );
         facultyPageLayout.setVerticalGroup(
             facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1646,10 +1661,11 @@ public class mainManu extends javax.swing.JFrame {
                 .addGap(32, 32, 32)
                 .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jToggleButton1)
-                    .addComponent(jButton13))
+                    .addComponent(jButton13)
+                    .addComponent(jButton23))
                 .addGap(18, 18, 18)
                 .addComponent(jToggleButton2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(170, Short.MAX_VALUE))
         );
 
         month.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
@@ -1975,6 +1991,55 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addContainerGap(101, Short.MAX_VALUE))
     );
 
+    suggestQuestion.setPreferredSize(new java.awt.Dimension(625, 425));
+
+    jTextArea3.setColumns(20);
+    jTextArea3.setRows(5);
+    jScrollPane7.setViewportView(jTextArea3);
+
+    jButton22.setText("Submit Question");
+    jButton22.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton22ActionPerformed(evt);
+        }
+    });
+
+    jButton24.setText("Back");
+    jButton24.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton24ActionPerformed(evt);
+        }
+    });
+
+    javax.swing.GroupLayout suggestQuestionLayout = new javax.swing.GroupLayout(suggestQuestion);
+    suggestQuestion.setLayout(suggestQuestionLayout);
+    suggestQuestionLayout.setHorizontalGroup(
+        suggestQuestionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionLayout.createSequentialGroup()
+            .addGroup(suggestQuestionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(suggestQuestionLayout.createSequentialGroup()
+                    .addGap(171, 171, 171)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 342, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(suggestQuestionLayout.createSequentialGroup()
+                    .addGap(286, 286, 286)
+                    .addComponent(jButton22))
+                .addGroup(suggestQuestionLayout.createSequentialGroup()
+                    .addGap(27, 27, 27)
+                    .addComponent(jButton24)))
+            .addContainerGap(173, Short.MAX_VALUE))
+    );
+    suggestQuestionLayout.setVerticalGroup(
+        suggestQuestionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionLayout.createSequentialGroup()
+            .addGap(84, 84, 84)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGap(70, 70, 70)
+            .addComponent(jButton22)
+            .addGap(18, 18, 18)
+            .addComponent(jButton24)
+            .addContainerGap(89, Short.MAX_VALUE))
+    );
+
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
     jPanel1.setPreferredSize(new java.awt.Dimension(625, 425));
@@ -1988,7 +2053,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
         }
     });
 
-    jButton2.setText("Faculty");
+    jButton2.setText("Professors");
     jButton2.addActionListener(new java.awt.event.ActionListener() {
         public void actionPerformed(java.awt.event.ActionEvent evt) {
             jButton2ActionPerformed(evt);
@@ -2030,17 +2095,16 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
                         .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel1))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton4)
-                    .addGap(211, 211, 211))
+                    .addComponent(jButton4))
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addComponent(jButton1)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                     .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                    .addComponent(jButton3)
-                    .addGap(250, 250, 250))))
+                    .addComponent(jButton3)))
+            .addGap(211, 211, 211))
     );
     jPanel1Layout.setVerticalGroup(
         jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2507,6 +2571,22 @@ DefaultListModel questions = new DefaultListModel();
         this.validate();
     }//GEN-LAST:event_jButton21ActionPerformed
 
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        this.setContentPane(suggestQuestion);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        this.setContentPane(facultyPage);
+        this.invalidate();
+        this.validate();            
+    }//GEN-LAST:event_jButton24ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2615,6 +2695,9 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -2764,8 +2847,10 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton2;
     private javax.swing.JToggleButton jToggleButton3;
@@ -2781,6 +2866,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JPanel setOpenCloseTime;
     private javax.swing.JPanel studentPage;
     private javax.swing.JButton submit;
+    private javax.swing.JPanel suggestQuestion;
     private javax.swing.JComboBox<String> year;
     private javax.swing.JComboBox<String> year1;
     // End of variables declaration//GEN-END:variables
