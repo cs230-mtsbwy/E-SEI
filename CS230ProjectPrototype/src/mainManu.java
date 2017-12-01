@@ -379,6 +379,7 @@ public class mainManu extends javax.swing.JFrame {
         question1.setForeground(new java.awt.Color(255, 255, 255));
         question1.setText("Question 1");
 
+        jRadioButton1.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton1);
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -386,8 +387,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton2.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton2);
 
+        jRadioButton3.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton3);
         jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -395,6 +398,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton4.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton4);
         jRadioButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -402,6 +406,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton5.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton5);
         jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -436,40 +441,58 @@ public class mainManu extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Question 5");
 
+        jRadioButton6.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton6);
 
+        jRadioButton7.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton7);
 
+        jRadioButton8.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton8);
 
+        jRadioButton9.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton9);
 
+        jRadioButton10.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton10);
 
+        jRadioButton11.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton11);
 
+        jRadioButton12.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton12);
 
+        jRadioButton13.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton13);
 
+        jRadioButton14.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton14);
 
+        jRadioButton15.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton15);
 
+        jRadioButton16.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton16);
 
+        jRadioButton17.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton17);
 
+        jRadioButton18.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton18);
 
+        jRadioButton19.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton19);
 
+        jRadioButton20.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton20);
 
+        jRadioButton21.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton21);
 
+        jRadioButton22.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton22);
 
+        jRadioButton23.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton23);
         jRadioButton23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -477,8 +500,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton24.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton24);
 
+        jRadioButton25.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton25);
 
         jButton7.setText("Next");
@@ -495,6 +520,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel30.setForeground(new java.awt.Color(255, 255, 255));
         jLabel30.setText("Provost's Questions:");
 
@@ -833,6 +859,7 @@ public class mainManu extends javax.swing.JFrame {
 
         deanQuestions.setBackground(new java.awt.Color(51, 102, 0));
 
+        jRadioButton26.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton26);
         jRadioButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -840,6 +867,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton27.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton27);
         jRadioButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -847,6 +875,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton28.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton28);
         jRadioButton28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -854,8 +883,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton29.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton29);
 
+        jRadioButton30.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton30);
         jRadioButton30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -863,6 +894,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton31.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton31);
         jRadioButton31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -870,6 +902,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton32.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton32);
         jRadioButton32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -877,6 +910,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton33.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton33);
         jRadioButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -884,6 +918,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton34.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton34);
         jRadioButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -891,6 +926,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton35.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton35);
         jRadioButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -901,6 +937,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Disagree");
 
+        jRadioButton36.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton36);
         jRadioButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -911,6 +948,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Fair");
 
+        jRadioButton37.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton37);
         jRadioButton37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -921,6 +959,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Agree");
 
+        jRadioButton38.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton38);
         jRadioButton38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -931,6 +970,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Strongly Agree");
 
+        jRadioButton39.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton39);
         jRadioButton39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -941,6 +981,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Question 2");
 
+        jRadioButton40.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton40);
         jRadioButton40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -951,6 +992,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Question 3");
 
+        jRadioButton41.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton41);
         jRadioButton41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -971,6 +1013,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Question 5");
 
+        jRadioButton42.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton42);
         jRadioButton42.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -978,6 +1021,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton43.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton43);
         jRadioButton43.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -988,6 +1032,7 @@ public class mainManu extends javax.swing.JFrame {
         question2.setForeground(new java.awt.Color(255, 255, 255));
         question2.setText("Question 1");
 
+        jRadioButton44.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton44);
         jRadioButton44.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -995,8 +1040,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton45.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton45);
 
+        jRadioButton46.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton46);
         jRadioButton46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1004,6 +1051,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton47.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton47);
         jRadioButton47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1011,6 +1059,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton48.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton48);
         jRadioButton48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1021,6 +1070,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("Strongly Disagree");
 
+        jRadioButton49.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton49);
         jRadioButton49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1028,6 +1078,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton50.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton50);
         jRadioButton50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1227,6 +1278,7 @@ public class mainManu extends javax.swing.JFrame {
 
         instructorQuestions.setBackground(new java.awt.Color(51, 102, 0));
 
+        jRadioButton51.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton51);
         jRadioButton51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1234,6 +1286,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton52.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton52);
         jRadioButton52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1241,6 +1294,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton53.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton53);
         jRadioButton53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1248,8 +1302,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton54.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton54);
 
+        jRadioButton55.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton55);
         jRadioButton55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1257,6 +1313,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton56.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton56);
         jRadioButton56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1264,6 +1321,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton57.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton57);
         jRadioButton57.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1271,6 +1329,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton58.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton58);
         jRadioButton58.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1278,6 +1337,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton59.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton59);
         jRadioButton59.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1285,6 +1345,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton60.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton60);
         jRadioButton60.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1295,6 +1356,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("Disagree");
 
+        jRadioButton61.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton61);
         jRadioButton61.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1305,6 +1367,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel32.setForeground(new java.awt.Color(255, 255, 255));
         jLabel32.setText("Fair");
 
+        jRadioButton62.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton62);
         jRadioButton62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1315,6 +1378,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setText("Agree");
 
+        jRadioButton63.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton63);
         jRadioButton63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1325,6 +1389,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText("Strongly Agree");
 
+        jRadioButton64.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton64);
         jRadioButton64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1335,6 +1400,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setText("Question 2");
 
+        jRadioButton65.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton65);
         jRadioButton65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1345,6 +1411,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel36.setForeground(new java.awt.Color(255, 255, 255));
         jLabel36.setText("Question 3");
 
+        jRadioButton66.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton66);
         jRadioButton66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1365,6 +1432,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setText("Question 5");
 
+        jRadioButton67.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup2.add(jRadioButton67);
         jRadioButton67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1372,6 +1440,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton68.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup3.add(jRadioButton68);
         jRadioButton68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1382,6 +1451,7 @@ public class mainManu extends javax.swing.JFrame {
         question3.setForeground(new java.awt.Color(255, 255, 255));
         question3.setText("Question 1");
 
+        jRadioButton69.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton69);
         jRadioButton69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1389,8 +1459,10 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton70.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton70);
 
+        jRadioButton71.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton71);
         jRadioButton71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1398,6 +1470,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton72.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton72);
         jRadioButton72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1405,6 +1478,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton73.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup1.add(jRadioButton73);
         jRadioButton73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1415,6 +1489,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel39.setForeground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Strongly Disagree");
 
+        jRadioButton74.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup4.add(jRadioButton74);
         jRadioButton74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1422,6 +1497,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton75.setBackground(new java.awt.Color(51, 102, 0));
         buttonGroup5.add(jRadioButton75);
         jRadioButton75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1429,6 +1505,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel40.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setText("Instructor's Questions:");
 
