@@ -96,6 +96,7 @@ public class mainManu extends javax.swing.JFrame {
         jButton26 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
         jButton41 = new javax.swing.JButton();
+        jLabel101 = new javax.swing.JLabel();
         deanQuestions = new javax.swing.JPanel();
         jRadioButton26 = new javax.swing.JRadioButton();
         jRadioButton27 = new javax.swing.JRadioButton();
@@ -252,17 +253,7 @@ public class mainManu extends javax.swing.JFrame {
         jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
         reportPane = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
-        jComboBox7 = new javax.swing.JComboBox<>();
-        jLabel53 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jComboBox10 = new javax.swing.JComboBox<>();
-        jLabel54 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jComboBox11 = new javax.swing.JComboBox<>();
         jLabel55 = new javax.swing.JLabel();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
@@ -300,6 +291,12 @@ public class mainManu extends javax.swing.JFrame {
         jTextField24 = new javax.swing.JTextField();
         jTextField25 = new javax.swing.JTextField();
         jTextField26 = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea6 = new javax.swing.JTextArea();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
         studentPage = new javax.swing.JPanel();
         jButton34 = new javax.swing.JButton();
         jComboBox12 = new javax.swing.JComboBox<>();
@@ -313,6 +310,56 @@ public class mainManu extends javax.swing.JFrame {
         jComboBox6 = new javax.swing.JComboBox<>();
         jScrollPane11 = new javax.swing.JScrollPane();
         jList6 = new javax.swing.JList<>();
+        reportPane1 = new javax.swing.JPanel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jComboBox13 = new javax.swing.JComboBox<>();
+        jLabel78 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jComboBox14 = new javax.swing.JComboBox<>();
+        jLabel79 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jComboBox15 = new javax.swing.JComboBox<>();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        jTextField27 = new javax.swing.JTextField();
+        jTextField28 = new javax.swing.JTextField();
+        jTextField29 = new javax.swing.JTextField();
+        jTextField30 = new javax.swing.JTextField();
+        jTextField31 = new javax.swing.JTextField();
+        jTextField32 = new javax.swing.JTextField();
+        jTextField33 = new javax.swing.JTextField();
+        jTextField34 = new javax.swing.JTextField();
+        jTextField35 = new javax.swing.JTextField();
+        jTextField36 = new javax.swing.JTextField();
+        jTextField37 = new javax.swing.JTextField();
+        jTextField38 = new javax.swing.JTextField();
+        jTextField39 = new javax.swing.JTextField();
+        jTextField40 = new javax.swing.JTextField();
+        jTextField41 = new javax.swing.JTextField();
+        jButton42 = new javax.swing.JButton();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        jLabel97 = new javax.swing.JLabel();
+        jTextField42 = new javax.swing.JTextField();
+        jTextField43 = new javax.swing.JTextField();
+        jTextField44 = new javax.swing.JTextField();
+        jLabel100 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -847,37 +894,41 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel101.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel101.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel101.setText("SEI Committee:");
+
         javax.swing.GroupLayout comiteePage1Layout = new javax.swing.GroupLayout(comiteePage1);
         comiteePage1.setLayout(comiteePage1Layout);
         comiteePage1Layout.setHorizontalGroup(
             comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(comiteePage1Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
                 .addGroup(comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(comiteePage1Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jButton31))
-                    .addGroup(comiteePage1Layout.createSequentialGroup()
-                        .addGap(79, 79, 79)
-                        .addGroup(comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton41, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jButton37)
                         .addGap(18, 18, 18)
                         .addComponent(jButton12)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton26)))
-                .addContainerGap(193, Short.MAX_VALUE))
+                        .addComponent(jButton26)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel101)
+                    .addComponent(jButton31))
+                .addContainerGap(89, Short.MAX_VALUE))
         );
         comiteePage1Layout.setVerticalGroup(
             comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(comiteePage1Layout.createSequentialGroup()
-                .addGap(77, 77, 77)
+                .addGap(25, 25, 25)
+                .addComponent(jLabel101)
+                .addGap(35, 35, 35)
                 .addGroup(comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton37)
                     .addComponent(jButton12)
-                    .addComponent(jButton26))
-                .addGap(36, 36, 36)
-                .addComponent(jButton41)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 218, Short.MAX_VALUE)
+                    .addComponent(jButton26)
+                    .addComponent(jButton41))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 277, Short.MAX_VALUE)
                 .addComponent(jButton31)
                 .addGap(25, 25, 25))
         );
@@ -2431,45 +2482,9 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     reportPane.setBackground(new java.awt.Color(51, 102, 0));
     reportPane.setForeground(new java.awt.Color(51, 102, 0));
 
-    jLabel13.setBackground(new java.awt.Color(255, 255, 255));
-    jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-    jLabel13.setText("By Course:");
-
-    jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-    jLabel14.setText("By Semesters:");
-
-    jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-    jLabel15.setText("By Instructor:");
-
     jLabel52.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
     jLabel52.setForeground(new java.awt.Color(255, 255, 255));
     jLabel52.setText("Reports:");
-
-    jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
-
-    jLabel53.setForeground(new java.awt.Color(255, 255, 255));
-    jLabel53.setText("Rating:");
-
-    jTextField1.setText("\"Dummy Rating\"");
-    jTextField1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField1ActionPerformed(evt);
-        }
-    });
-
-    jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
-
-    jLabel54.setForeground(new java.awt.Color(255, 255, 255));
-    jLabel54.setText("Rating:");
-
-    jTextField2.setText("\"Dummy Rating\"");
-    jTextField2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField2ActionPerformed(evt);
-        }
-    });
-
-    jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Instructor 1", " " }));
 
     jLabel55.setForeground(new java.awt.Color(255, 255, 255));
     jLabel55.setText("Question 1 Rating:");
@@ -2622,6 +2637,11 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     });
 
     jButton32.setText("Back");
+    jButton32.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton32ActionPerformed(evt);
+        }
+    });
 
     jLabel70.setForeground(new java.awt.Color(255, 255, 255));
     jLabel70.setText("Mean:");
@@ -2653,6 +2673,20 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
         }
     });
 
+    jTextArea6.setColumns(20);
+    jTextArea6.setRows(5);
+    jScrollPane1.setViewportView(jTextArea6);
+
+    jTextArea7.setColumns(20);
+    jTextArea7.setRows(5);
+    jScrollPane10.setViewportView(jTextArea7);
+
+    jLabel98.setForeground(new java.awt.Color(240, 240, 240));
+    jLabel98.setText("Free Response 1");
+
+    jLabel99.setForeground(new java.awt.Color(240, 240, 240));
+    jLabel99.setText("Free Response 2");
+
     javax.swing.GroupLayout reportPaneLayout = new javax.swing.GroupLayout(reportPane);
     reportPane.setLayout(reportPaneLayout);
     reportPaneLayout.setHorizontalGroup(
@@ -2662,77 +2696,53 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
             .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(reportPaneLayout.createSequentialGroup()
                     .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel14)
-                        .addComponent(jLabel13)
-                        .addComponent(jLabel15)
-                        .addComponent(jLabel52)
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addComponent(jLabel55)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField9))
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel56)
+                                .addComponent(jLabel58))
+                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField10, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
+                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                    .addGap(4, 4, 4)
+                                    .addComponent(jTextField11))))
                         .addGroup(reportPaneLayout.createSequentialGroup()
                             .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(reportPaneLayout.createSequentialGroup()
-                                    .addGap(0, 0, Short.MAX_VALUE)
-                                    .addComponent(jLabel53)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(reportPaneLayout.createSequentialGroup()
-                                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(reportPaneLayout.createSequentialGroup()
-                                            .addComponent(jLabel55)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(jTextField9))
-                                        .addGroup(reportPaneLayout.createSequentialGroup()
-                                            .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(jLabel54))
-                                        .addGroup(reportPaneLayout.createSequentialGroup()
-                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(jLabel56)
-                                                .addComponent(jLabel58))
-                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(reportPaneLayout.createSequentialGroup()
-                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                    .addComponent(jTextField10, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
-                                                .addGroup(reportPaneLayout.createSequentialGroup()
-                                                    .addGap(4, 4, 4)
-                                                    .addComponent(jTextField11))))
-                                        .addGroup(reportPaneLayout.createSequentialGroup()
-                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel59)
-                                                .addComponent(jLabel57))
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(jTextField13, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jTextField12))))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, reportPaneLayout.createSequentialGroup()
-                                            .addGap(0, 16, Short.MAX_VALUE)
-                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(jLabel64, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel60, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel63, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(jLabel62, javax.swing.GroupLayout.Alignment.TRAILING))))))
+                                .addComponent(jLabel59)
+                                .addComponent(jLabel57))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jTextField14, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
-                                .addComponent(jTextField15)
-                                .addComponent(jTextField18, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(jTextField17)
-                                .addComponent(jTextField16))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel65)
-                                .addComponent(jLabel66)
-                                .addComponent(jLabel68)
-                                .addComponent(jLabel67)
-                                .addComponent(jLabel69)))
-                        .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jTextField13, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jTextField12))))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel64, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jLabel60, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jLabel63, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jLabel62, javax.swing.GroupLayout.Alignment.TRAILING))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jTextField19, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+                        .addComponent(jTextField14, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                        .addComponent(jTextField15)
+                        .addComponent(jTextField18, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jTextField17)
+                        .addComponent(jTextField16))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel65)
+                        .addComponent(jLabel66)
+                        .addComponent(jLabel68)
+                        .addComponent(jLabel67)
+                        .addComponent(jLabel69))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTextField19, javax.swing.GroupLayout.DEFAULT_SIZE, 76, Short.MAX_VALUE)
                         .addComponent(jTextField20)
                         .addComponent(jTextField23, javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(jTextField22)
@@ -2752,9 +2762,25 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(jTextField25))))
                 .addGroup(reportPaneLayout.createSequentialGroup()
-                    .addComponent(jButton32)
+                    .addComponent(jLabel52)
                     .addGap(0, 0, Short.MAX_VALUE)))
             .addContainerGap())
+        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, reportPaneLayout.createSequentialGroup()
+            .addGap(35, 35, 35)
+            .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGap(46, 46, 46))
+        .addGroup(reportPaneLayout.createSequentialGroup()
+            .addGap(86, 86, 86)
+            .addComponent(jLabel98)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel99)
+            .addGap(151, 151, 151))
+        .addGroup(reportPaneLayout.createSequentialGroup()
+            .addGap(21, 21, 21)
+            .addComponent(jButton32)
+            .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
     );
     reportPaneLayout.setVerticalGroup(
         reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2762,24 +2788,6 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
             .addContainerGap()
             .addComponent(jLabel52)
             .addGap(18, 18, 18)
-            .addComponent(jLabel13)
-            .addGap(18, 18, 18)
-            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addComponent(jLabel53)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGap(18, 18, 18)
-            .addComponent(jLabel14)
-            .addGap(18, 18, 18)
-            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addComponent(jLabel54)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-            .addComponent(jLabel15)
-            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-            .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
             .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(reportPaneLayout.createSequentialGroup()
                     .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -2847,9 +2855,17 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
                     .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel69))))
-            .addGap(18, 18, 18)
+            .addGap(27, 27, 27)
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jLabel98)
+                .addComponent(jLabel99))
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
             .addComponent(jButton32)
-            .addGap(10, 10, 10))
+            .addGap(24, 24, 24))
     );
 
     studentPage.setBackground(new java.awt.Color(51, 102, 0));
@@ -3000,6 +3016,439 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
             .addGap(31, 31, 31))
     );
 
+    reportPane1.setBackground(new java.awt.Color(51, 102, 0));
+    reportPane1.setForeground(new java.awt.Color(51, 102, 0));
+
+    jLabel74.setBackground(new java.awt.Color(255, 255, 255));
+    jLabel74.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel74.setText("By Course:");
+
+    jLabel75.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel75.setText("By Semesters:");
+
+    jLabel76.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel76.setText("By Instructor:");
+
+    jLabel77.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+    jLabel77.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel77.setText("Reports:");
+
+    jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
+
+    jLabel78.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel78.setText("Rating:");
+
+    jTextField3.setText("\"Dummy Rating\"");
+    jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField3ActionPerformed(evt);
+        }
+    });
+
+    jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
+
+    jLabel79.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel79.setText("Rating:");
+
+    jTextField4.setText("\"Dummy Rating\"");
+    jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField4ActionPerformed(evt);
+        }
+    });
+
+    jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Instructor 1", " " }));
+
+    jLabel80.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel80.setText("Question 1 Rating:");
+
+    jLabel81.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel81.setText("Question 2 Rating:");
+
+    jLabel82.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel82.setText("Question 4 Rating:");
+
+    jLabel83.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel83.setText("Question 3 Rating:");
+
+    jLabel84.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel84.setText("Question 1 Rating:");
+
+    jLabel85.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel85.setText("Question 4 Rating:");
+
+    jLabel86.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel86.setText("Question 3 Rating:");
+
+    jLabel87.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel87.setText("Question 2 Rating:");
+
+    jLabel88.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel88.setText("Question 1 Rating:");
+
+    jLabel89.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel89.setText("Question 5 Rating:");
+
+    jLabel90.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel90.setText("Question 2 Rating:");
+
+    jLabel91.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel91.setText("Question 1 Rating:");
+
+    jLabel92.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel92.setText("Question 3 Rating:");
+
+    jLabel93.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel93.setText("Question 4 Rating:");
+
+    jLabel94.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel94.setText("Question 5 Rating:");
+
+    jTextField27.setText("4/5");
+    jTextField27.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField27ActionPerformed(evt);
+        }
+    });
+
+    jTextField28.setText("3.2/5");
+    jTextField28.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField28ActionPerformed(evt);
+        }
+    });
+
+    jTextField29.setText("4.1/5");
+    jTextField29.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField29ActionPerformed(evt);
+        }
+    });
+
+    jTextField30.setText("4.2/5");
+    jTextField30.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField30ActionPerformed(evt);
+        }
+    });
+
+    jTextField31.setText("2/5");
+    jTextField31.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField31ActionPerformed(evt);
+        }
+    });
+
+    jTextField32.setText("3.5/5");
+    jTextField32.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField32ActionPerformed(evt);
+        }
+    });
+
+    jTextField33.setText("3.7/5");
+    jTextField33.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField33ActionPerformed(evt);
+        }
+    });
+
+    jTextField34.setText("2.1/5");
+    jTextField34.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField34ActionPerformed(evt);
+        }
+    });
+
+    jTextField35.setText("1.6/5");
+    jTextField35.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField35ActionPerformed(evt);
+        }
+    });
+
+    jTextField36.setText("2.3/5");
+    jTextField36.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField36ActionPerformed(evt);
+        }
+    });
+
+    jTextField37.setText("4.9/5");
+    jTextField37.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField37ActionPerformed(evt);
+        }
+    });
+
+    jTextField38.setText("4.7/5");
+    jTextField38.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField38ActionPerformed(evt);
+        }
+    });
+
+    jTextField39.setText("5/5");
+    jTextField39.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField39ActionPerformed(evt);
+        }
+    });
+
+    jTextField40.setText("4.2/5");
+    jTextField40.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField40ActionPerformed(evt);
+        }
+    });
+
+    jTextField41.setText("4.33/");
+    jTextField41.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField41ActionPerformed(evt);
+        }
+    });
+
+    jButton42.setText("Back");
+    jButton42.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton42ActionPerformed(evt);
+        }
+    });
+
+    jLabel95.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel95.setText("Mean:");
+
+    jLabel96.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel96.setText("Median:");
+
+    jLabel97.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel97.setText("STD:");
+
+    jTextField42.setText("4/5");
+    jTextField42.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField42ActionPerformed(evt);
+        }
+    });
+
+    jTextField43.setText("3.45");
+    jTextField43.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField43ActionPerformed(evt);
+        }
+    });
+
+    jTextField44.setText("1.2");
+    jTextField44.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField44ActionPerformed(evt);
+        }
+    });
+
+    javax.swing.GroupLayout reportPane1Layout = new javax.swing.GroupLayout(reportPane1);
+    reportPane1.setLayout(reportPane1Layout);
+    reportPane1Layout.setHorizontalGroup(
+        reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(reportPane1Layout.createSequentialGroup()
+            .addContainerGap()
+            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(reportPane1Layout.createSequentialGroup()
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel75)
+                        .addComponent(jLabel74)
+                        .addComponent(jLabel76)
+                        .addComponent(jLabel77)
+                        .addGroup(reportPane1Layout.createSequentialGroup()
+                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(reportPane1Layout.createSequentialGroup()
+                                    .addGap(0, 0, Short.MAX_VALUE)
+                                    .addComponent(jLabel78)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(reportPane1Layout.createSequentialGroup()
+                                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(reportPane1Layout.createSequentialGroup()
+                                            .addComponent(jLabel80)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(jTextField27))
+                                        .addGroup(reportPane1Layout.createSequentialGroup()
+                                            .addComponent(jComboBox14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(jLabel79))
+                                        .addGroup(reportPane1Layout.createSequentialGroup()
+                                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jLabel81)
+                                                .addComponent(jLabel83))
+                                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(reportPane1Layout.createSequentialGroup()
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                    .addComponent(jTextField28, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
+                                                .addGroup(reportPane1Layout.createSequentialGroup()
+                                                    .addGap(4, 4, 4)
+                                                    .addComponent(jTextField29))))
+                                        .addGroup(reportPane1Layout.createSequentialGroup()
+                                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel84)
+                                                .addComponent(jLabel82))
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jTextField31, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jTextField30))))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, reportPane1Layout.createSequentialGroup()
+                                            .addGap(0, 16, Short.MAX_VALUE)
+                                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jLabel89, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel85, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel86, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel88, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel87, javax.swing.GroupLayout.Alignment.TRAILING))))))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jTextField32, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                                .addComponent(jTextField33)
+                                .addComponent(jTextField36, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jTextField35)
+                                .addComponent(jTextField34))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel90)
+                                .addComponent(jLabel91)
+                                .addComponent(jLabel93)
+                                .addComponent(jLabel92)
+                                .addComponent(jLabel94)))
+                        .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jComboBox13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTextField37, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+                        .addComponent(jTextField38)
+                        .addComponent(jTextField41, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jTextField40)
+                        .addComponent(jTextField39))
+                    .addGap(18, 18, 18)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(reportPane1Layout.createSequentialGroup()
+                            .addComponent(jLabel96)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField42, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(reportPane1Layout.createSequentialGroup()
+                            .addComponent(jLabel97)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField44))
+                        .addGroup(reportPane1Layout.createSequentialGroup()
+                            .addComponent(jLabel95)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField43))))
+                .addGroup(reportPane1Layout.createSequentialGroup()
+                    .addComponent(jButton42)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addContainerGap())
+    );
+    reportPane1Layout.setVerticalGroup(
+        reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(reportPane1Layout.createSequentialGroup()
+            .addContainerGap()
+            .addComponent(jLabel77)
+            .addGap(18, 18, 18)
+            .addComponent(jLabel74)
+            .addGap(18, 18, 18)
+            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jComboBox13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel78)
+                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGap(18, 18, 18)
+            .addComponent(jLabel75)
+            .addGap(18, 18, 18)
+            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jComboBox14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel79)
+                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(jLabel76)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(jComboBox15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+            .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(reportPane1Layout.createSequentialGroup()
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel80))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel81))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel83))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel82))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel84)))
+                .addGroup(reportPane1Layout.createSequentialGroup()
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel88))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel87))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel86))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel85))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel89)))
+                .addGroup(reportPane1Layout.createSequentialGroup()
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel91)
+                        .addComponent(jLabel95)
+                        .addComponent(jTextField43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel90)
+                        .addComponent(jLabel96)
+                        .addComponent(jTextField42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel92)
+                        .addComponent(jLabel97)
+                        .addComponent(jTextField44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel93))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel94))))
+            .addGap(18, 18, 18)
+            .addComponent(jButton42)
+            .addGap(10, 10, 10))
+    );
+
+    jLabel100.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+    jLabel100.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel100.setText("Reports:");
+
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
     jPanel1.setBackground(new java.awt.Color(51, 102, 0));
@@ -3142,7 +3591,7 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        this.setContentPane(jPanel1);
+        this.setContentPane(comiteePage1);
         this.invalidate();
         this.validate();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton6ActionPerformed
@@ -3536,14 +3985,6 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
         this.validate();
     }//GEN-LAST:event_jButton30ActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
-
     private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField9ActionPerformed
@@ -3685,10 +4126,102 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     }//GEN-LAST:event_jButton40ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
-        this.setContentPane(reportPane);
+        this.setContentPane(reportPane1);
         this.invalidate();
         this.validate();
     }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        this.setContentPane(facultyPage);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton32ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4ActionPerformed
+
+    private void jTextField27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField27ActionPerformed
+
+    private void jTextField28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField28ActionPerformed
+
+    private void jTextField29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField29ActionPerformed
+
+    private void jTextField30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField30ActionPerformed
+
+    private void jTextField31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField31ActionPerformed
+
+    private void jTextField32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField32ActionPerformed
+
+    private void jTextField33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField33ActionPerformed
+
+    private void jTextField34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField34ActionPerformed
+
+    private void jTextField35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField35ActionPerformed
+
+    private void jTextField36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField36ActionPerformed
+
+    private void jTextField37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField37ActionPerformed
+
+    private void jTextField38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField38ActionPerformed
+
+    private void jTextField39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField39ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField39ActionPerformed
+
+    private void jTextField40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField40ActionPerformed
+
+    private void jTextField41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField41ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField41ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        this.setContentPane(comiteePage1);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jTextField42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField42ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField42ActionPerformed
+
+    private void jTextField43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField43ActionPerformed
+
+    private void jTextField44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField44ActionPerformed
+        
+    }//GEN-LAST:event_jTextField44ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -3815,30 +4348,30 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton40;
     private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JComboBox<String> jComboBox10;
-    private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox13;
+    private javax.swing.JComboBox<String> jComboBox14;
+    private javax.swing.JComboBox<String> jComboBox15;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
-    private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
@@ -3880,8 +4413,6 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
@@ -3903,8 +4434,34 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JList<String> jList2;
     private javax.swing.JList<String> jList3;
     private javax.swing.JList<String> jList4;
@@ -3986,6 +4543,8 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JRadioButton jRadioButton75;
     private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane2;
@@ -4001,7 +4560,8 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextArea jTextArea6;
+    private javax.swing.JTextArea jTextArea7;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
@@ -4012,7 +4572,6 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JTextField jTextField17;
     private javax.swing.JTextField jTextField18;
     private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField20;
     private javax.swing.JTextField jTextField21;
     private javax.swing.JTextField jTextField22;
@@ -4020,6 +4579,26 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JTextField jTextField24;
     private javax.swing.JTextField jTextField25;
     private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField27;
+    private javax.swing.JTextField jTextField28;
+    private javax.swing.JTextField jTextField29;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField30;
+    private javax.swing.JTextField jTextField31;
+    private javax.swing.JTextField jTextField32;
+    private javax.swing.JTextField jTextField33;
+    private javax.swing.JTextField jTextField34;
+    private javax.swing.JTextField jTextField35;
+    private javax.swing.JTextField jTextField36;
+    private javax.swing.JTextField jTextField37;
+    private javax.swing.JTextField jTextField38;
+    private javax.swing.JTextField jTextField39;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField40;
+    private javax.swing.JTextField jTextField41;
+    private javax.swing.JTextField jTextField42;
+    private javax.swing.JTextField jTextField43;
+    private javax.swing.JTextField jTextField44;
     private javax.swing.JTextField jTextField9;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton2;
@@ -4032,6 +4611,7 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JPanel questionPanel;
     private javax.swing.JPanel questionPanel1;
     private javax.swing.JPanel reportPane;
+    private javax.swing.JPanel reportPane1;
     private javax.swing.JPanel seiIntro;
     private javax.swing.JPanel setOpenCloseTime;
     private javax.swing.JPanel studentPage;
