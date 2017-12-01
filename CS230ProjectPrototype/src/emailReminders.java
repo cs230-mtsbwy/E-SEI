@@ -36,14 +36,19 @@ public class emailReminders extends javax.swing.JPanel {
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(51, 102, 0));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
         jButton1.setText("Back");
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Email Reminders:");
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Type email:");
 
         jButton2.setText("Send");

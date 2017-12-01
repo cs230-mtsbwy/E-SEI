@@ -72,6 +72,9 @@ public class deanQuestions extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(51, 102, 0));
+        jPanel1.setForeground(new java.awt.Color(255, 255, 255));
+
         buttonGroup2.add(jRadioButton10);
         jRadioButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,6 +140,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Disagree");
 
         buttonGroup4.add(jRadioButton20);
@@ -146,6 +150,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Fair");
 
         buttonGroup5.add(jRadioButton21);
@@ -155,6 +160,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Agree");
 
         buttonGroup2.add(jRadioButton22);
@@ -164,6 +170,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Strongly Agree");
 
         buttonGroup3.add(jRadioButton23);
@@ -173,6 +180,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Question 2");
 
         buttonGroup4.add(jRadioButton24);
@@ -182,6 +190,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Question 3");
 
         buttonGroup5.add(jRadioButton25);
@@ -191,6 +200,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Question 4");
 
         jButton1.setText("Next");
@@ -200,6 +210,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Question 5");
 
         buttonGroup2.add(jRadioButton6);
@@ -216,6 +227,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        question1.setForeground(new java.awt.Color(255, 255, 255));
         question1.setText("Question 1");
 
         buttonGroup1.add(jRadioButton1);
@@ -248,6 +260,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Strongly Disagree");
 
         buttonGroup4.add(jRadioButton8);
@@ -264,6 +277,7 @@ public class deanQuestions extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Dean's Questions:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

@@ -30,6 +30,10 @@ public class Exit_MessagePage extends javax.swing.JPanel {
         Return = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(51, 102, 0));
+        setForeground(new java.awt.Color(255, 255, 255));
+
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Thank you for completing the SEI, have a nice day");
 
         Return.setText("Return to Main Menu");

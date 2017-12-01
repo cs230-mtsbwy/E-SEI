@@ -249,6 +249,55 @@ public class mainManu extends javax.swing.JFrame {
         jTextArea5 = new javax.swing.JTextArea();
         jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
+        reportPane = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jLabel53 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jComboBox10 = new javax.swing.JComboBox<>();
+        jLabel54 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jComboBox11 = new javax.swing.JComboBox<>();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jTextField12 = new javax.swing.JTextField();
+        jTextField13 = new javax.swing.JTextField();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField15 = new javax.swing.JTextField();
+        jTextField16 = new javax.swing.JTextField();
+        jTextField17 = new javax.swing.JTextField();
+        jTextField18 = new javax.swing.JTextField();
+        jTextField19 = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
+        jTextField22 = new javax.swing.JTextField();
+        jTextField23 = new javax.swing.JTextField();
+        jButton32 = new javax.swing.JButton();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jTextField24 = new javax.swing.JTextField();
+        jTextField25 = new javax.swing.JTextField();
+        jTextField26 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -258,6 +307,7 @@ public class mainManu extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton17 = new javax.swing.JButton();
 
+        questionPanel.setBackground(new java.awt.Color(51, 102, 0));
         questionPanel.setPreferredSize(new java.awt.Dimension(625, 425));
 
         jButton8.setText("Submit");
@@ -274,6 +324,8 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel9.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("New Question:");
 
         jScrollPane1.setViewportView(jList1);
@@ -320,8 +372,11 @@ public class mainManu extends javax.swing.JFrame {
                 .addGap(31, 31, 31))
         );
 
+        seiIntro.setBackground(new java.awt.Color(51, 102, 0));
+        seiIntro.setForeground(new java.awt.Color(255, 255, 255));
         seiIntro.setPreferredSize(new java.awt.Dimension(625, 425));
 
+        question1.setForeground(new java.awt.Color(255, 255, 255));
         question1.setText("Question 1");
 
         buttonGroup1.add(jRadioButton1);
@@ -354,22 +409,31 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
         jLabel21.setText("Strongly Disagree");
 
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Disagree");
 
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Fair");
 
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Agree");
 
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Strongly Agree");
 
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Question 2");
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Question 3");
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Question 4");
 
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Question 5");
 
         buttonGroup2.add(jRadioButton6);
@@ -431,6 +495,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
         jLabel30.setText("Provost's Questions:");
 
         javax.swing.GroupLayout seiIntroLayout = new javax.swing.GroupLayout(seiIntro);
@@ -634,6 +699,7 @@ public class mainManu extends javax.swing.JFrame {
                         .addGap(60, 60, 60))))
         );
 
+        displayCourses.setBackground(new java.awt.Color(51, 102, 0));
         displayCourses.setPreferredSize(new java.awt.Dimension(625, 425));
 
         String[] temp = new String[courses.size()];
@@ -695,6 +761,7 @@ public class mainManu extends javax.swing.JFrame {
                 .addGap(90, 90, 90))
         );
 
+        studentPage.setBackground(new java.awt.Color(51, 102, 0));
         studentPage.setPreferredSize(new java.awt.Dimension(625, 425));
 
         jButton12.setText("Take SEI");
@@ -711,6 +778,7 @@ public class mainManu extends javax.swing.JFrame {
         }
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(temp2));
 
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Course");
 
         jButton26.setText("Suggest Question");
@@ -762,6 +830,8 @@ public class mainManu extends javax.swing.JFrame {
                 .addComponent(jButton31)
                 .addGap(26, 26, 26))
         );
+
+        deanQuestions.setBackground(new java.awt.Color(51, 102, 0));
 
         buttonGroup2.add(jRadioButton26);
         jRadioButton26.addActionListener(new java.awt.event.ActionListener() {
@@ -828,6 +898,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
         jLabel16.setText("Disagree");
 
         buttonGroup4.add(jRadioButton36);
@@ -837,6 +908,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("Fair");
 
         buttonGroup5.add(jRadioButton37);
@@ -846,6 +918,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("Agree");
 
         buttonGroup2.add(jRadioButton38);
@@ -855,6 +928,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("Strongly Agree");
 
         buttonGroup3.add(jRadioButton39);
@@ -864,6 +938,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setText("Question 2");
 
         buttonGroup4.add(jRadioButton40);
@@ -873,6 +948,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Question 3");
 
         buttonGroup5.add(jRadioButton41);
@@ -882,6 +958,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setText("Question 4");
 
         jButton10.setText("Next");
@@ -891,6 +968,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Question 5");
 
         buttonGroup2.add(jRadioButton42);
@@ -907,6 +985,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        question2.setForeground(new java.awt.Color(255, 255, 255));
         question2.setText("Question 1");
 
         buttonGroup1.add(jRadioButton44);
@@ -939,6 +1018,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("Strongly Disagree");
 
         buttonGroup4.add(jRadioButton49);
@@ -955,6 +1035,8 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(255, 255, 255));
         jLabel29.setText("Deans's Questions:");
 
         javax.swing.GroupLayout deanQuestionsLayout = new javax.swing.GroupLayout(deanQuestions);
@@ -1143,6 +1225,8 @@ public class mainManu extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        instructorQuestions.setBackground(new java.awt.Color(51, 102, 0));
+
         buttonGroup2.add(jRadioButton51);
         jRadioButton51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1208,6 +1292,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
         jLabel31.setText("Disagree");
 
         buttonGroup4.add(jRadioButton61);
@@ -1217,6 +1302,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel32.setForeground(new java.awt.Color(255, 255, 255));
         jLabel32.setText("Fair");
 
         buttonGroup5.add(jRadioButton62);
@@ -1226,6 +1312,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setText("Agree");
 
         buttonGroup2.add(jRadioButton63);
@@ -1235,6 +1322,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setText("Strongly Agree");
 
         buttonGroup3.add(jRadioButton64);
@@ -1244,6 +1332,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setText("Question 2");
 
         buttonGroup4.add(jRadioButton65);
@@ -1253,6 +1342,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel36.setForeground(new java.awt.Color(255, 255, 255));
         jLabel36.setText("Question 3");
 
         buttonGroup5.add(jRadioButton66);
@@ -1262,6 +1352,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel37.setForeground(new java.awt.Color(255, 255, 255));
         jLabel37.setText("Question 4");
 
         jButton11.setText("Next");
@@ -1271,6 +1362,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setText("Question 5");
 
         buttonGroup2.add(jRadioButton67);
@@ -1287,6 +1379,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        question3.setForeground(new java.awt.Color(255, 255, 255));
         question3.setText("Question 1");
 
         buttonGroup1.add(jRadioButton69);
@@ -1319,6 +1412,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel39.setForeground(new java.awt.Color(255, 255, 255));
         jLabel39.setText("Strongly Disagree");
 
         buttonGroup4.add(jRadioButton74);
@@ -1335,6 +1429,7 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setText("Instructor's Questions:");
 
         javax.swing.GroupLayout instructorQuestionsLayout = new javax.swing.GroupLayout(instructorQuestions);
@@ -1519,12 +1614,18 @@ public class mainManu extends javax.swing.JFrame {
                 .addContainerGap(13, Short.MAX_VALUE))
         );
 
+        freeResponseQuestions.setBackground(new java.awt.Color(51, 102, 0));
+
+        jLabel41.setForeground(new java.awt.Color(255, 255, 255));
         jLabel41.setText("(Opational) Question 1:");
 
+        jLabel42.setForeground(new java.awt.Color(255, 255, 255));
         jLabel42.setText("Question?????");
 
+        jLabel43.setForeground(new java.awt.Color(255, 255, 255));
         jLabel43.setText("(Opational) Question 2:");
 
+        jLabel44.setForeground(new java.awt.Color(255, 255, 255));
         jLabel44.setText("Question?????");
 
         submit.setText("Submit");
@@ -1594,6 +1695,10 @@ public class mainManu extends javax.swing.JFrame {
                     .addContainerGap(166, Short.MAX_VALUE)))
         );
 
+        Exit_MessagePage.setBackground(new java.awt.Color(51, 102, 0));
+
+        jLabel45.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel45.setForeground(new java.awt.Color(255, 255, 255));
         jLabel45.setText("Thank you for completing the SEI, have a nice day");
 
         Return.setText("Return to Main Menu");
@@ -1636,6 +1741,8 @@ public class mainManu extends javax.swing.JFrame {
                 .addContainerGap(140, Short.MAX_VALUE))
         );
 
+        facultyPage.setBackground(new java.awt.Color(51, 102, 0));
+
         jToggleButton1.setText("Open and Close SEI");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1650,6 +1757,8 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel46.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel46.setForeground(new java.awt.Color(255, 255, 255));
         jLabel46.setText("Faculty Page:");
 
         jToggleButton2.setText("Back");
@@ -1698,10 +1807,12 @@ public class mainManu extends javax.swing.JFrame {
                     .addComponent(jToggleButton1)
                     .addComponent(jButton13)
                     .addComponent(jButton23))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 240, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 237, Short.MAX_VALUE)
                 .addComponent(jToggleButton2)
                 .addGap(26, 26, 26))
         );
+
+        setOpenCloseTime.setBackground(new java.awt.Color(51, 102, 0));
 
         month.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
 
@@ -1709,12 +1820,16 @@ public class mainManu extends javax.swing.JFrame {
 
         year.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2017", "2018", "2019", "2020", "2021", " " }));
 
+        jLabel47.setForeground(new java.awt.Color(255, 255, 255));
         jLabel47.setText("Open Date/ Time");
 
+        jLabel48.setForeground(new java.awt.Color(255, 255, 255));
         jLabel48.setText("Close Date/ Time");
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("/");
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("/");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00" }));
@@ -1723,12 +1838,14 @@ public class mainManu extends javax.swing.JFrame {
 
         month1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
 
+        jLabel49.setForeground(new java.awt.Color(255, 255, 255));
         jLabel49.setText("/");
 
         day1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
 
         year1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "2017", "2018", "2019", "2020", "2021", " " }));
 
+        jLabel50.setForeground(new java.awt.Color(255, 255, 255));
         jLabel50.setText("/");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00" }));
@@ -1841,6 +1958,8 @@ public class mainManu extends javax.swing.JFrame {
                 .addGap(28, 28, 28))
         );
 
+        deanPage.setBackground(new java.awt.Color(51, 102, 0));
+
         jButton18.setText("Select Questions for SEI");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1848,6 +1967,8 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jLabel51.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(255, 255, 255));
         jLabel51.setText("Dean Page:");
 
         jToggleButton4.setText("Back");
@@ -1895,9 +2016,10 @@ public class mainManu extends javax.swing.JFrame {
                     .addComponent(jButton25))
                 .addGap(18, 18, 18)
                 .addComponent(jToggleButton4)
-                .addContainerGap(165, Short.MAX_VALUE))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
 
+        profQuestions.setBackground(new java.awt.Color(51, 102, 0));
         profQuestions.setPreferredSize(new java.awt.Dimension(625, 425));
 
         DefaultListModel questions3 = new DefaultListModel();
@@ -1965,6 +2087,7 @@ jComboBox8.addActionListener(new java.awt.event.ActionListener() {
             .addGap(91, 91, 91))
     );
 
+    deanSelections.setBackground(new java.awt.Color(51, 102, 0));
     deanSelections.setPreferredSize(new java.awt.Dimension(625, 425));
 
     DefaultListModel questions4 = new DefaultListModel();
@@ -1989,6 +2112,7 @@ jComboBox8.addActionListener(new java.awt.event.ActionListener() {
         "CS - Teacher D",
         "CS - Teacher F"}));
 
+jLabel12.setForeground(new java.awt.Color(255, 255, 255));
 jLabel12.setText("Select Course");
 
 javax.swing.GroupLayout deanSelectionsLayout = new javax.swing.GroupLayout(deanSelections);
@@ -2027,6 +2151,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addContainerGap(101, Short.MAX_VALUE))
     );
 
+    suggestQuestion.setBackground(new java.awt.Color(51, 102, 0));
     suggestQuestion.setPreferredSize(new java.awt.Dimension(625, 425));
 
     jTextArea3.setColumns(20);
@@ -2076,6 +2201,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addContainerGap(51, Short.MAX_VALUE))
     );
 
+    suggestQuestionD.setBackground(new java.awt.Color(51, 102, 0));
     suggestQuestionD.setPreferredSize(new java.awt.Dimension(625, 425));
 
     jTextArea4.setColumns(20);
@@ -2125,6 +2251,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addContainerGap(51, Short.MAX_VALUE))
     );
 
+    suggestQuestionS.setBackground(new java.awt.Color(51, 102, 0));
     suggestQuestionS.setPreferredSize(new java.awt.Dimension(625, 425));
 
     jTextArea5.setColumns(20);
@@ -2174,10 +2301,437 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addContainerGap(51, Short.MAX_VALUE))
     );
 
+    reportPane.setBackground(new java.awt.Color(51, 102, 0));
+    reportPane.setForeground(new java.awt.Color(51, 102, 0));
+
+    jLabel13.setBackground(new java.awt.Color(255, 255, 255));
+    jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel13.setText("By Course:");
+
+    jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel14.setText("By Semesters:");
+
+    jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel15.setText("By Instructor:");
+
+    jLabel52.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+    jLabel52.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel52.setText("Reports:");
+
+    jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
+
+    jLabel53.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel53.setText("Rating:");
+
+    jTextField1.setText("\"Dummy Rating\"");
+    jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField1ActionPerformed(evt);
+        }
+    });
+
+    jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Course 1", "Course 2", "Course 3", "Course 4" }));
+
+    jLabel54.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel54.setText("Rating:");
+
+    jTextField2.setText("\"Dummy Rating\"");
+    jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField2ActionPerformed(evt);
+        }
+    });
+
+    jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Instructor 1", " " }));
+
+    jLabel55.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel55.setText("Question 1 Rating:");
+
+    jLabel56.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel56.setText("Question 2 Rating:");
+
+    jLabel57.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel57.setText("Question 4 Rating:");
+
+    jLabel58.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel58.setText("Question 3 Rating:");
+
+    jLabel59.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel59.setText("Question 1 Rating:");
+
+    jLabel60.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel60.setText("Question 4 Rating:");
+
+    jLabel61.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel61.setText("Question 3 Rating:");
+
+    jLabel62.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel62.setText("Question 2 Rating:");
+
+    jLabel63.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel63.setText("Question 1 Rating:");
+
+    jLabel64.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel64.setText("Question 5 Rating:");
+
+    jLabel65.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel65.setText("Question 2 Rating:");
+
+    jLabel66.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel66.setText("Question 1 Rating:");
+
+    jLabel67.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel67.setText("Question 3 Rating:");
+
+    jLabel68.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel68.setText("Question 4 Rating:");
+
+    jLabel69.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel69.setText("Question 5 Rating:");
+
+    jTextField9.setText("4/5");
+    jTextField9.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField9ActionPerformed(evt);
+        }
+    });
+
+    jTextField10.setText("3.2/5");
+    jTextField10.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField10ActionPerformed(evt);
+        }
+    });
+
+    jTextField11.setText("4.1/5");
+    jTextField11.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField11ActionPerformed(evt);
+        }
+    });
+
+    jTextField12.setText("4.2/5");
+    jTextField12.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField12ActionPerformed(evt);
+        }
+    });
+
+    jTextField13.setText("2/5");
+    jTextField13.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField13ActionPerformed(evt);
+        }
+    });
+
+    jTextField14.setText("3.5/5");
+    jTextField14.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField14ActionPerformed(evt);
+        }
+    });
+
+    jTextField15.setText("3.7/5");
+    jTextField15.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField15ActionPerformed(evt);
+        }
+    });
+
+    jTextField16.setText("2.1/5");
+    jTextField16.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField16ActionPerformed(evt);
+        }
+    });
+
+    jTextField17.setText("1.6/5");
+    jTextField17.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField17ActionPerformed(evt);
+        }
+    });
+
+    jTextField18.setText("2.3/5");
+    jTextField18.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField18ActionPerformed(evt);
+        }
+    });
+
+    jTextField19.setText("4.9/5");
+    jTextField19.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField19ActionPerformed(evt);
+        }
+    });
+
+    jTextField20.setText("4.7/5");
+    jTextField20.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField20ActionPerformed(evt);
+        }
+    });
+
+    jTextField21.setText("5/5");
+    jTextField21.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField21ActionPerformed(evt);
+        }
+    });
+
+    jTextField22.setText("4.2/5");
+    jTextField22.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField22ActionPerformed(evt);
+        }
+    });
+
+    jTextField23.setText("4.33/");
+    jTextField23.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField23ActionPerformed(evt);
+        }
+    });
+
+    jButton32.setText("Back");
+
+    jLabel70.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel70.setText("Mean:");
+
+    jLabel71.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel71.setText("Median:");
+
+    jLabel72.setForeground(new java.awt.Color(255, 255, 255));
+    jLabel72.setText("STD:");
+
+    jTextField24.setText("4/5");
+    jTextField24.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField24ActionPerformed(evt);
+        }
+    });
+
+    jTextField25.setText("3.45");
+    jTextField25.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField25ActionPerformed(evt);
+        }
+    });
+
+    jTextField26.setText("1.2");
+    jTextField26.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jTextField26ActionPerformed(evt);
+        }
+    });
+
+    javax.swing.GroupLayout reportPaneLayout = new javax.swing.GroupLayout(reportPane);
+    reportPane.setLayout(reportPaneLayout);
+    reportPaneLayout.setHorizontalGroup(
+        reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(reportPaneLayout.createSequentialGroup()
+            .addContainerGap()
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(reportPaneLayout.createSequentialGroup()
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel14)
+                        .addComponent(jLabel13)
+                        .addComponent(jLabel15)
+                        .addComponent(jLabel52)
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                    .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(36, 36, 36)
+                                    .addComponent(jLabel53)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(reportPaneLayout.createSequentialGroup()
+                                            .addComponent(jLabel55)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(jTextField9))
+                                        .addGroup(reportPaneLayout.createSequentialGroup()
+                                            .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(jLabel54))
+                                        .addGroup(reportPaneLayout.createSequentialGroup()
+                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jLabel56)
+                                                .addComponent(jLabel58))
+                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                    .addComponent(jTextField10, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
+                                                .addGroup(reportPaneLayout.createSequentialGroup()
+                                                    .addGap(4, 4, 4)
+                                                    .addComponent(jTextField11))))
+                                        .addGroup(reportPaneLayout.createSequentialGroup()
+                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel59)
+                                                .addComponent(jLabel57))
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jTextField13, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jTextField12))))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, reportPaneLayout.createSequentialGroup()
+                                            .addGap(0, 16, Short.MAX_VALUE)
+                                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(jLabel64, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel60, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel61, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel63, javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addComponent(jLabel62, javax.swing.GroupLayout.Alignment.TRAILING))))))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jTextField14, javax.swing.GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+                                .addComponent(jTextField15)
+                                .addComponent(jTextField18, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jTextField17)
+                                .addComponent(jTextField16))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel65)
+                                .addComponent(jLabel66)
+                                .addComponent(jLabel68)
+                                .addComponent(jLabel67)
+                                .addComponent(jLabel69)))
+                        .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTextField19, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
+                        .addComponent(jTextField20)
+                        .addComponent(jTextField23, javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jTextField22)
+                        .addComponent(jTextField21))
+                    .addGap(18, 18, 18)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addComponent(jLabel71)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addComponent(jLabel72)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField26))
+                        .addGroup(reportPaneLayout.createSequentialGroup()
+                            .addComponent(jLabel70)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(jTextField25))))
+                .addGroup(reportPaneLayout.createSequentialGroup()
+                    .addComponent(jButton32)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addContainerGap())
+    );
+    reportPaneLayout.setVerticalGroup(
+        reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(reportPaneLayout.createSequentialGroup()
+            .addContainerGap()
+            .addComponent(jLabel52)
+            .addGap(18, 18, 18)
+            .addComponent(jLabel13)
+            .addGap(18, 18, 18)
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel53)
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGap(18, 18, 18)
+            .addComponent(jLabel14)
+            .addGap(18, 18, 18)
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel54)
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(jLabel15)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
+            .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(reportPaneLayout.createSequentialGroup()
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel55))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel56))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel58))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel57))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel59)))
+                .addGroup(reportPaneLayout.createSequentialGroup()
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel63))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel62))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel61))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel60))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel64)))
+                .addGroup(reportPaneLayout.createSequentialGroup()
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel66)
+                        .addComponent(jLabel70)
+                        .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel65)
+                        .addComponent(jLabel71)
+                        .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel67)
+                        .addComponent(jLabel72)
+                        .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel68))
+                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel69))))
+            .addGap(18, 18, 18)
+            .addComponent(jButton32)
+            .addGap(10, 10, 10))
+    );
+
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+    jPanel1.setBackground(new java.awt.Color(51, 102, 0));
+    jPanel1.setForeground(new java.awt.Color(255, 255, 255));
     jPanel1.setPreferredSize(new java.awt.Dimension(625, 425));
 
+    jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+    jLabel1.setForeground(new java.awt.Color(255, 255, 255));
     jLabel1.setText("Welcome to the Electronic Student Evalutation ");
 
     jButton1.setText("Students");
@@ -2194,6 +2748,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
         }
     });
 
+    jLabel2.setForeground(new java.awt.Color(255, 255, 255));
     jLabel2.setText("Please Sign in:");
 
     jButton3.setText("SEI Committee");
@@ -2255,7 +2810,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
                 .addComponent(jButton17))
             .addGap(119, 119, 119)
             .addComponent(jButton4)
-            .addContainerGap(151, Short.MAX_VALUE))
+            .addContainerGap(148, Short.MAX_VALUE))
     );
 
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -2264,13 +2819,13 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
         .addGroup(layout.createSequentialGroup()
             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addGap(0, 131, Short.MAX_VALUE))
+            .addGap(0, 0, Short.MAX_VALUE))
     );
     layout.setVerticalGroup(
         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
         .addGroup(layout.createSequentialGroup()
             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addGap(0, 83, Short.MAX_VALUE))
+            .addGap(0, 0, Short.MAX_VALUE))
     );
 
     pack();
@@ -2755,6 +3310,86 @@ DefaultListModel questions = new DefaultListModel();
         this.validate();
     }//GEN-LAST:event_jButton31ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
+    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10ActionPerformed
+
+    private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField11ActionPerformed
+
+    private void jTextField12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField12ActionPerformed
+
+    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13ActionPerformed
+
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
+    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15ActionPerformed
+
+    private void jTextField16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField16ActionPerformed
+
+    private void jTextField17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField17ActionPerformed
+
+    private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField18ActionPerformed
+
+    private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField19ActionPerformed
+
+    private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField20ActionPerformed
+
+    private void jTextField21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField21ActionPerformed
+
+    private void jTextField22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField22ActionPerformed
+
+    private void jTextField23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField23ActionPerformed
+
+    private void jTextField24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField24ActionPerformed
+
+    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField25ActionPerformed
+
+    private void jTextField26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField26ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2874,6 +3509,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -2881,17 +3517,23 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox10;
+    private javax.swing.JComboBox<String> jComboBox11;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
@@ -2932,8 +3574,29 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JList<String> jList1;
@@ -3030,6 +3693,26 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTextArea jTextArea5;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField9;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton2;
     private javax.swing.JToggleButton jToggleButton4;
@@ -3040,6 +3723,7 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JLabel question2;
     private javax.swing.JLabel question3;
     private javax.swing.JPanel questionPanel;
+    private javax.swing.JPanel reportPane;
     private javax.swing.JPanel seiIntro;
     private javax.swing.JPanel setOpenCloseTime;
     private javax.swing.JPanel studentPage;
