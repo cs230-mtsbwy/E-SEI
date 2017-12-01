@@ -95,6 +95,7 @@ public class mainManu extends javax.swing.JFrame {
         jButton12 = new javax.swing.JButton();
         jButton26 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
+        jButton41 = new javax.swing.JButton();
         deanQuestions = new javax.swing.JPanel();
         jRadioButton26 = new javax.swing.JRadioButton();
         jRadioButton27 = new javax.swing.JRadioButton();
@@ -196,6 +197,7 @@ public class mainManu extends javax.swing.JFrame {
         jLabel46 = new javax.swing.JLabel();
         jToggleButton2 = new javax.swing.JToggleButton();
         jButton23 = new javax.swing.JButton();
+        jButton40 = new javax.swing.JButton();
         setOpenCloseTime = new javax.swing.JPanel();
         month = new javax.swing.JComboBox<>();
         day = new javax.swing.JComboBox<>();
@@ -838,6 +840,13 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jButton41.setText("View Results");
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout comiteePage1Layout = new javax.swing.GroupLayout(comiteePage1);
         comiteePage1.setLayout(comiteePage1Layout);
         comiteePage1Layout.setHorizontalGroup(
@@ -845,15 +854,17 @@ public class mainManu extends javax.swing.JFrame {
             .addGroup(comiteePage1Layout.createSequentialGroup()
                 .addGroup(comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(comiteePage1Layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jButton31))
+                    .addGroup(comiteePage1Layout.createSequentialGroup()
                         .addGap(79, 79, 79)
-                        .addComponent(jButton37)
+                        .addGroup(comiteePage1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jButton41, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jButton37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(18, 18, 18)
                         .addComponent(jButton12)
                         .addGap(18, 18, 18)
-                        .addComponent(jButton26))
-                    .addGroup(comiteePage1Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jButton31)))
+                        .addComponent(jButton26)))
                 .addContainerGap(193, Short.MAX_VALUE))
         );
         comiteePage1Layout.setVerticalGroup(
@@ -864,7 +875,9 @@ public class mainManu extends javax.swing.JFrame {
                     .addComponent(jButton37)
                     .addComponent(jButton12)
                     .addComponent(jButton26))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 277, Short.MAX_VALUE)
+                .addGap(36, 36, 36)
+                .addComponent(jButton41)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 218, Short.MAX_VALUE)
                 .addComponent(jButton31)
                 .addGap(25, 25, 25))
         );
@@ -1864,6 +1877,13 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
+        jButton40.setText("View Results");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout facultyPageLayout = new javax.swing.GroupLayout(facultyPage);
         facultyPage.setLayout(facultyPageLayout);
         facultyPageLayout.setHorizontalGroup(
@@ -1872,19 +1892,21 @@ public class mainManu extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(facultyPageLayout.createSequentialGroup()
-                        .addComponent(jToggleButton1)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton13)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 142, Short.MAX_VALUE))
-                    .addGroup(facultyPageLayout.createSequentialGroup()
                         .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel46)
                             .addGroup(facultyPageLayout.createSequentialGroup()
                                 .addGap(14, 14, 14)
                                 .addComponent(jToggleButton2)))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(facultyPageLayout.createSequentialGroup()
+                        .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(jButton40, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jToggleButton1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton13)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 142, Short.MAX_VALUE))))
         );
         facultyPageLayout.setVerticalGroup(
             facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1896,7 +1918,9 @@ public class mainManu extends javax.swing.JFrame {
                     .addComponent(jToggleButton1)
                     .addComponent(jButton13)
                     .addComponent(jButton23))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 237, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton40)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 196, Short.MAX_VALUE)
                 .addComponent(jToggleButton2)
                 .addGap(26, 26, 26))
         );
@@ -2645,8 +2669,7 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
                         .addGroup(reportPaneLayout.createSequentialGroup()
                             .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(reportPaneLayout.createSequentialGroup()
-                                    .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(36, 36, 36)
+                                    .addGap(0, 0, Short.MAX_VALUE)
                                     .addComponent(jLabel53)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -2704,7 +2727,9 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
                                 .addComponent(jLabel68)
                                 .addComponent(jLabel67)
                                 .addComponent(jLabel69)))
-                        .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(reportPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(jTextField19, javax.swing.GroupLayout.DEFAULT_SIZE, 74, Short.MAX_VALUE)
@@ -3653,6 +3678,18 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
         this.validate();
     }//GEN-LAST:event_jButton12ActionPerformed
 
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        this.setContentPane(reportPane);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+        this.setContentPane(reportPane);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton41ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -3776,6 +3813,8 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
+    private javax.swing.JButton jButton41;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
