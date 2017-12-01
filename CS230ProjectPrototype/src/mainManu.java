@@ -94,6 +94,8 @@ public class mainManu extends javax.swing.JFrame {
         jButton12 = new javax.swing.JButton();
         jComboBox6 = new javax.swing.JComboBox<>();
         jLabel11 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
         deanQuestions = new javax.swing.JPanel();
         jRadioButton26 = new javax.swing.JRadioButton();
         jRadioButton27 = new javax.swing.JRadioButton();
@@ -216,10 +218,10 @@ public class mainManu extends javax.swing.JFrame {
         jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         deanPage = new javax.swing.JPanel();
-        jToggleButton3 = new javax.swing.JToggleButton();
         jButton18 = new javax.swing.JButton();
         jLabel51 = new javax.swing.JLabel();
         jToggleButton4 = new javax.swing.JToggleButton();
+        jButton25 = new javax.swing.JButton();
         profQuestions = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jList3 = new javax.swing.JList<>();
@@ -237,6 +239,16 @@ public class mainManu extends javax.swing.JFrame {
         jTextArea3 = new javax.swing.JTextArea();
         jButton22 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
+        suggestQuestionD = new javax.swing.JPanel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jButton27 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        suggestQuestionS = new javax.swing.JPanel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTextArea5 = new javax.swing.JTextArea();
+        jButton29 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -701,32 +713,54 @@ public class mainManu extends javax.swing.JFrame {
 
         jLabel11.setText("Course");
 
+        jButton26.setText("Suggest Question");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+
+        jButton31.setText("Back");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout studentPageLayout = new javax.swing.GroupLayout(studentPage);
         studentPage.setLayout(studentPageLayout);
         studentPageLayout.setHorizontalGroup(
             studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
-                .addContainerGap(204, Short.MAX_VALUE)
+            .addGroup(studentPageLayout.createSequentialGroup()
                 .addGroup(studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
-                        .addComponent(jLabel11)
-                        .addGap(106, 106, 106))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, studentPageLayout.createSequentialGroup()
+                    .addGroup(studentPageLayout.createSequentialGroup()
+                        .addGap(71, 71, 71)
+                        .addComponent(jLabel11))
+                    .addGroup(studentPageLayout.createSequentialGroup()
+                        .addGap(46, 46, 46)
                         .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(82, 82, 82)))
-                .addComponent(jButton12)
-                .addGap(178, 178, 178))
+                        .addGap(39, 39, 39)
+                        .addComponent(jButton12)
+                        .addGap(49, 49, 49)
+                        .addComponent(jButton26, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(studentPageLayout.createSequentialGroup()
+                        .addGap(27, 27, 27)
+                        .addComponent(jButton31)))
+                .addContainerGap(188, Short.MAX_VALUE))
         );
         studentPageLayout.setVerticalGroup(
             studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(studentPageLayout.createSequentialGroup()
-                .addGap(173, 173, 173)
+                .addGap(50, 50, 50)
                 .addComponent(jLabel11)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(studentPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton12)
-                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(209, Short.MAX_VALUE))
+                    .addComponent(jButton26))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 278, Short.MAX_VALUE)
+                .addComponent(jButton31)
+                .addGap(26, 26, 26))
         );
 
         buttonGroup2.add(jRadioButton26);
@@ -1640,18 +1674,19 @@ public class mainManu extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(facultyPageLayout.createSequentialGroup()
-                        .addComponent(jLabel46)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jToggleButton1)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton13)
+                        .addGap(18, 18, 18)
+                        .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 142, Short.MAX_VALUE))
                     .addGroup(facultyPageLayout.createSequentialGroup()
                         .addGroup(facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel46)
                             .addGroup(facultyPageLayout.createSequentialGroup()
-                                .addComponent(jToggleButton1)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton13)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton23, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jToggleButton2))
-                        .addGap(0, 93, Short.MAX_VALUE))))
+                                .addGap(14, 14, 14)
+                                .addComponent(jToggleButton2)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         facultyPageLayout.setVerticalGroup(
             facultyPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1663,9 +1698,9 @@ public class mainManu extends javax.swing.JFrame {
                     .addComponent(jToggleButton1)
                     .addComponent(jButton13)
                     .addComponent(jButton23))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 240, Short.MAX_VALUE)
                 .addComponent(jToggleButton2)
-                .addContainerGap(170, Short.MAX_VALUE))
+                .addGap(26, 26, 26))
         );
 
         month.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" }));
@@ -1806,13 +1841,6 @@ public class mainManu extends javax.swing.JFrame {
                 .addGap(28, 28, 28))
         );
 
-        jToggleButton3.setText("Open and Close SEI");
-        jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton3ActionPerformed(evt);
-            }
-        });
-
         jButton18.setText("Select Questions for SEI");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1820,12 +1848,19 @@ public class mainManu extends javax.swing.JFrame {
             }
         });
 
-        jLabel51.setText("Faculty Page:");
+        jLabel51.setText("Dean Page:");
 
         jToggleButton4.setText("Back");
         jToggleButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton4ActionPerformed(evt);
+            }
+        });
+
+        jButton25.setText("Suggest Question");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
             }
         });
 
@@ -1840,13 +1875,14 @@ public class mainManu extends javax.swing.JFrame {
                         .addComponent(jLabel51)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(deanPageLayout.createSequentialGroup()
+                        .addGap(8, 8, 8)
                         .addGroup(deanPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jToggleButton4)
                             .addGroup(deanPageLayout.createSequentialGroup()
-                                .addComponent(jToggleButton3)
+                                .addComponent(jButton18)
                                 .addGap(18, 18, 18)
-                                .addComponent(jButton18))
-                            .addComponent(jToggleButton4))
-                        .addGap(0, 31, Short.MAX_VALUE))))
+                                .addComponent(jButton25, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 205, Short.MAX_VALUE))))
         );
         deanPageLayout.setVerticalGroup(
             deanPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1855,11 +1891,11 @@ public class mainManu extends javax.swing.JFrame {
                 .addComponent(jLabel51)
                 .addGap(32, 32, 32)
                 .addGroup(deanPageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jToggleButton3)
-                    .addComponent(jButton18))
+                    .addComponent(jButton18)
+                    .addComponent(jButton25))
                 .addGap(18, 18, 18)
                 .addComponent(jToggleButton4)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(165, Short.MAX_VALUE))
         );
 
         profQuestions.setPreferredSize(new java.awt.Dimension(625, 425));
@@ -2026,7 +2062,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
                 .addGroup(suggestQuestionLayout.createSequentialGroup()
                     .addGap(27, 27, 27)
                     .addComponent(jButton24)))
-            .addContainerGap(173, Short.MAX_VALUE))
+            .addContainerGap(112, Short.MAX_VALUE))
     );
     suggestQuestionLayout.setVerticalGroup(
         suggestQuestionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2037,7 +2073,105 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
             .addComponent(jButton22)
             .addGap(18, 18, 18)
             .addComponent(jButton24)
-            .addContainerGap(89, Short.MAX_VALUE))
+            .addContainerGap(51, Short.MAX_VALUE))
+    );
+
+    suggestQuestionD.setPreferredSize(new java.awt.Dimension(625, 425));
+
+    jTextArea4.setColumns(20);
+    jTextArea4.setRows(5);
+    jScrollPane8.setViewportView(jTextArea4);
+
+    jButton27.setText("Submit Question");
+    jButton27.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton27ActionPerformed(evt);
+        }
+    });
+
+    jButton28.setText("Back");
+    jButton28.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton28ActionPerformed(evt);
+        }
+    });
+
+    javax.swing.GroupLayout suggestQuestionDLayout = new javax.swing.GroupLayout(suggestQuestionD);
+    suggestQuestionD.setLayout(suggestQuestionDLayout);
+    suggestQuestionDLayout.setHorizontalGroup(
+        suggestQuestionDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionDLayout.createSequentialGroup()
+            .addGroup(suggestQuestionDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(suggestQuestionDLayout.createSequentialGroup()
+                    .addGap(171, 171, 171)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 342, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(suggestQuestionDLayout.createSequentialGroup()
+                    .addGap(286, 286, 286)
+                    .addComponent(jButton27))
+                .addGroup(suggestQuestionDLayout.createSequentialGroup()
+                    .addGap(27, 27, 27)
+                    .addComponent(jButton28)))
+            .addContainerGap(112, Short.MAX_VALUE))
+    );
+    suggestQuestionDLayout.setVerticalGroup(
+        suggestQuestionDLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionDLayout.createSequentialGroup()
+            .addGap(84, 84, 84)
+            .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGap(70, 70, 70)
+            .addComponent(jButton27)
+            .addGap(18, 18, 18)
+            .addComponent(jButton28)
+            .addContainerGap(51, Short.MAX_VALUE))
+    );
+
+    suggestQuestionS.setPreferredSize(new java.awt.Dimension(625, 425));
+
+    jTextArea5.setColumns(20);
+    jTextArea5.setRows(5);
+    jScrollPane9.setViewportView(jTextArea5);
+
+    jButton29.setText("Submit Question");
+    jButton29.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton29ActionPerformed(evt);
+        }
+    });
+
+    jButton30.setText("Back");
+    jButton30.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            jButton30ActionPerformed(evt);
+        }
+    });
+
+    javax.swing.GroupLayout suggestQuestionSLayout = new javax.swing.GroupLayout(suggestQuestionS);
+    suggestQuestionS.setLayout(suggestQuestionSLayout);
+    suggestQuestionSLayout.setHorizontalGroup(
+        suggestQuestionSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionSLayout.createSequentialGroup()
+            .addGroup(suggestQuestionSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(suggestQuestionSLayout.createSequentialGroup()
+                    .addGap(171, 171, 171)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 342, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(suggestQuestionSLayout.createSequentialGroup()
+                    .addGap(286, 286, 286)
+                    .addComponent(jButton29))
+                .addGroup(suggestQuestionSLayout.createSequentialGroup()
+                    .addGap(27, 27, 27)
+                    .addComponent(jButton30)))
+            .addContainerGap(112, Short.MAX_VALUE))
+    );
+    suggestQuestionSLayout.setVerticalGroup(
+        suggestQuestionSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(suggestQuestionSLayout.createSequentialGroup()
+            .addGap(84, 84, 84)
+            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGap(70, 70, 70)
+            .addComponent(jButton29)
+            .addGap(18, 18, 18)
+            .addComponent(jButton30)
+            .addContainerGap(51, Short.MAX_VALUE))
     );
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -2182,7 +2316,7 @@ deanSelectionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADI
     }//GEN-LAST:event_createQActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        this.setContentPane(jPanel1);
+        this.setContentPane(studentPage);
         this.invalidate();
         this.validate();        // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
@@ -2543,10 +2677,6 @@ DefaultListModel questions = new DefaultListModel();
         
     }//GEN-LAST:event_jButton18ActionPerformed
 
-    private void jToggleButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton3ActionPerformed
-
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton19ActionPerformed
@@ -2556,7 +2686,7 @@ DefaultListModel questions = new DefaultListModel();
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        this.setContentPane(deanSelections);
+        this.setContentPane(facultyPage);
         this.invalidate();
         this.validate();
     }//GEN-LAST:event_jButton17ActionPerformed
@@ -2586,6 +2716,44 @@ DefaultListModel questions = new DefaultListModel();
         this.invalidate();
         this.validate();            
     }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        this.setContentPane(suggestQuestion);
+        this.invalidate();
+        this.validate();// TODO add your handling code here:
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        this.setContentPane(suggestQuestionS);
+        this.invalidate();
+        this.validate();// TODO add your handling code here:
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        this.setContentPane(deanPage);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        this.setContentPane(studentPage);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        this.setContentPane(jPanel1);
+        this.invalidate();
+        this.validate();
+    }//GEN-LAST:event_jButton31ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -2698,7 +2866,14 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -2848,12 +3023,15 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
+    private javax.swing.JTextArea jTextArea5;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton2;
-    private javax.swing.JToggleButton jToggleButton3;
     private javax.swing.JToggleButton jToggleButton4;
     private javax.swing.JComboBox<String> month;
     private javax.swing.JComboBox<String> month1;
@@ -2867,6 +3045,8 @@ DefaultListModel questions = new DefaultListModel();
     private javax.swing.JPanel studentPage;
     private javax.swing.JButton submit;
     private javax.swing.JPanel suggestQuestion;
+    private javax.swing.JPanel suggestQuestionD;
+    private javax.swing.JPanel suggestQuestionS;
     private javax.swing.JComboBox<String> year;
     private javax.swing.JComboBox<String> year1;
     // End of variables declaration//GEN-END:variables
